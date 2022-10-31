@@ -1,13 +1,16 @@
 # analysis-template
 Template for analysis projects.    
+
+## Getting started
 You will need to start by modifying the following files and some of their default settings:
+- Change the repository name and description
 - `.github/ISSUE_TEMPLATE/*.md` -> change "Asignee" to your Github handle
 - `.gitignore` -> The default file is for a Python project, but you should modify as needed
 - `CITATION.cff` -> Modify project and author information as appropriate
 - `LICENSE` -> This project defaults to an Apache 2.0 license, but you should modify this file if you wish to use another license for your work.
 - `requirements.yml` -> change the project name and dependencies
 
-## Description
+## Project description
 Provide a summary of your project here.
 
 ## Citing this work
