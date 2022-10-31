@@ -7,7 +7,7 @@ You will need to start by modifying the following files and some of their defaul
 - `.github/ISSUE_TEMPLATE/*.md` -> change "Asignee" to your Github handle
 - `.gitignore` -> The default file is for a Python project, but you should modify as needed
 - `CITATION.cff` -> Modify project and author information as appropriate
-- `LICENSE` -> This project defaults to an Apache 2.0 license, but you should modify this file if you wish to use another license for your work.
+- `LICENSE` -> This project defaults to an MIT license, but you should modify this file if you wish to use another license for your work.
 - `requirements.yml` -> change the project name and dependencies
 
 ## Project description
@@ -47,14 +47,25 @@ You can provide information on how to contact you, or submit an issue on Github.
 ## Licensing
 Include any licensing terms, or copy and paste the details of the license like so:
 ```
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+MIT License
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Copyright (c) Author/Company/etc.
 
-   1. Definitions.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      ...
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
