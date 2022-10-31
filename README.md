@@ -38,6 +38,9 @@ Outline the steps to reproduce the analyses. For example:
 2. Generate Figure 1 images: Run the `notebooks/figure1.ipynb` file
 3. ...
 
+## Documentation
+You may want to utilize the built-in "Wiki" in Github, or you wish to generate your own documentation. A starting directory for this is in `docs`. You can then mount this directory to Github Pages by `Settings` -> `Pages` -> Choose `Deploy from a branch` -> Choose `main` as your branch and `docs` as your directory.
+
 ## Getting help
 You can provide information on how to contact you, or submit an issue on Github. For example, this template includes template issue forms for `bugs` and `feature requests`. You can provide details on how a user might go about handling this.
 
