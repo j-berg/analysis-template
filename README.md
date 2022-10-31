@@ -26,7 +26,7 @@ For example:
 $ git clone https://github.com/j-berg/analysis-template.git
 $ cd analysis-template
 $ conda env create -f requirements.yml
-$ conda activate xpresspipe
+$ conda activate analysis-template
 ```
 
 ## Operating system
