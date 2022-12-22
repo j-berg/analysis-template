@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "analysis-template"
+version = "0.0.1"
+description = ""
+authors = ["Foo Bar <foobar@altoslabs.com>"]
+readme = "README.md"
+packages = [{include = "analysis_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.5.1"
+seaborn = "^0.12.1"
+black = {extras = ["jupyter"], version = "^22.10.0"}
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
