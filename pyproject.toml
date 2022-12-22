@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "analysis_template"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.8,<4.0"
 pandas = "^1.5.1"
 seaborn = "^0.12.1"
 black = {extras = ["jupyter"], version = "^22.10.0"}
